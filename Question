@@ -1,0 +1,46 @@
+The owner of a local shop provides delivery services to the local community. He wants to develop a program to calculate the cost of delivery for his customers. For this project, the store owner has employed you to write a program in Python that will ask a user to enter the purchase total, the number of the items that need to be delivered and delivery day. Then the system displays the cost of delivery along with the total cost. 
+The delivery charges depend on the purchase total (need to be above $150), the number of items that need to be delivered and delivery day. 
+
+Calculating delivery charges are as follows:
+
+Purchase total > $150
+
+Yes
+
+Number of the items (N)
+
+N<=5
+
+N>=6
+
+Delivery day
+
+Same Day
+
+Next Day
+
+Same Day
+
+Next Day
+
+Delivery charges ($)
+
+8
+
+N * 1.50
+
+N * 2.50
+
+N * 1.20
+
+The user will enter the purchase total, the number of the items and delivery day for calculating the delivery cost. Once the cost has been calculated, the program should correctly display the delivery cost and total cost for the user. 
+
+For example, if a user enters “$200” as purchase total, “7” as the number of the items and “1” as delivery in the same day, the program should be able to display the delivery cost of “17.50"  and the total cost of “$217.50” ($200 + $17.50 ) for the user.
+
+This program must be built by using sequence programming (without using functions).
+
+All the currency figures must be displayed as floating-point numbers with 2 decimal places.
+
+Your program should be able to handle invalid inputs, such as negative values and invalid delivery day (1 for same day delivery and 2 for second-day delivery).
+
+A typical example of the display of your program can be as follows. Your program MUST follow the same display style
